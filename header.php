@@ -28,7 +28,7 @@
                         <div class="header__main--left">
                             <div class="logo">
                                 <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                    <img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/logo.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
+                                    <img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/KCM-Logo.jpg'); ?>" alt="<?php bloginfo('name'); ?>"/>
                                 </a>
                             </div>
 
@@ -36,25 +36,6 @@
                         </div>
 
                         <div class="header__main--right">
-                            <ul>
-                                <li>
-                                    <a href="<?php echo wc_get_cart_url(); ?>">
-                                        <i class="fal fa-basket-shopping-simple"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="spotlight-open">
-                                        <i class="fal fa-search"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/products" class="button primary small icon-right">
-                                        <span>Buy Now</span>
-                                        <i class="fa fa-chevron-right"></i>
-                                    </a>
-                                </li>        
-                            </ul>
-
                             <a href="#nav_mobile" class="burger__menu">
                                 <i class="fal fa-bars"></i>
                             </a>
@@ -62,7 +43,4 @@
                     </div><!-- max__width -->
                 </div><!-- header__main -->
             </header><!-- header -->
-
-            <!--  -->
-            
         </section><!-- header-banner -->
