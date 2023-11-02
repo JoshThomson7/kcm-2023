@@ -11,12 +11,12 @@
 
         article {
             display: flex;
-            min-width: 300px;
+            min-width: 250px;
 
             .padder {
-                margin: 16px;
+                margin: 10px;
                 width: 100%;
-                padding: 24px;
+                padding: 20px;
                 background: #fff;
                 border-radius: 32px;
                 box-shadow: 0 6px 20px rgb(0 0 0 / 10%);
@@ -28,7 +28,7 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
-                height: 380px;
+                height: 200px;
                 width: 100%;
 
                 a { 
@@ -44,14 +44,22 @@
                 display: flex;
                 flex-direction: column;
 
+                &.center{align-items: center; text-align: center;
+                    a.link{align-self: center;}
+                }
+
                 h5 {
-                    font-size: 12px;
-                    font-weight: 500;
-                    margin-bottom: 4px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
                     color: var(--fl1-primary);
                     text-transform: uppercase;
                     line-height: normal;
                     letter-spacing: 0.5px;
+
+                    i{
+                        font-size: 38px;
+                    }
                 }
 
                 h3 {
@@ -59,13 +67,17 @@
                     color: var(--fl1-text);
                     line-height: 28px;
                     font-weight: 700;
-                    margin-bottom: 4px;
+                    margin-bottom: 15px;
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: 15px;
                     line-height: 1.5;
                     color: var(--fl1-text-light);
+
+                    a { 
+                        color: $primary; text-decoration: underline; line-height: 1.7;
+                    }
                 }
 
                 a { 
@@ -74,14 +86,12 @@
                 }
 
                 a.link {
-                    align-self: flex-start;
                     height: auto;
                     font-size: 14px;
                     font-weight: bold;
                     color: $primary;
                     margin-top: 16px;
                     display: flex;
-                    align-items: center;
                     align-self: flex-start;
     
                     i {

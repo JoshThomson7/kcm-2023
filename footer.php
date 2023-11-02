@@ -25,7 +25,7 @@
 							<i class="fa-light fa-location-dot"></i>
 							368 Mutton Ln,<br> Potters Bar,<br>Herts, EN6 3AS
 						</li>
-						<li><i class="fa-light fa-phone"></i> 01707 414 700</li>
+						<li><i class="fa-light fa-phone"></i> 01707 661 266</li>
 					</ul>
 				</article>
 			</div>

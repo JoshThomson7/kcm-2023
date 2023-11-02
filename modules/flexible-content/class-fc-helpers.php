@@ -188,7 +188,7 @@ class FC_Helpers {
                     }
 
                     $html .= '<div class="fc-layout-heading'.$centre_heading.'">';
-                    $html .= '<div class="fc-layout-heading-left">'.$section_heading_logo.$section_top_heading.$section_dots_separator.$section_heading.$section_caption.'</div>';
+                    $html .= '<div class="fc-layout-heading-left">'.$section_heading_logo.$section_top_heading.$section_heading.$section_caption.$section_dots_separator.'</div>';
                     $html .= '<div class="fc-layout-heading-right"></div>';
                     $html .= '</div>';
                 }
