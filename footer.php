@@ -20,6 +20,7 @@
 				<?php endwhile; ?>
 
 				<article class="footer__details">
+					<h5>Contact Info</h5>
 					<ul>
 						<li>
 							<i class="fa-light fa-location-dot"></i>

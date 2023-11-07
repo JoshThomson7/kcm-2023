@@ -32,6 +32,10 @@ if(!empty($grid_boxes) && is_array($grid_boxes)):
                 $button_label = $grid_box['button_label'];
                 $button_url = $grid_box['button_url'];
                 $text_align = $grid_box['text_align'];
+                $button_new_tab = '';
+                if($grid_box['button_new_tab']){
+                    $button_new_tab = ' target="_blank"';
+                }
 
                 // Defaults
                 $link_open = '';
@@ -74,7 +78,7 @@ if(!empty($grid_boxes) && is_array($grid_boxes)):
                         <?php echo $overlay_link_close; ?>
 
                         <?php if($button_label && !$grid_boxes_overlay): ?>
-                            <a href="<?php echo $button_url; ?>" class="link animate-icon"><?php echo $button_label; ?> <i class="fa fa-chevron-right"></i></a>
+                            <a href="<?php echo $button_url; ?>" <?php echo $button_new_tab; ?> class="link animate-icon"><?php echo $button_label; ?> <i class="fa fa-chevron-right"></i></a>
                         <?php endif; ?>
                     </div><!-- grid__box__content -->
 
