@@ -7,7 +7,7 @@
       "uuidString" : "E3A06CD2-C4DD-478B-B0DB-996D30A81E10"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34564",
   "files" : {
     "\/404.php" : {
       "cB" : 0,
@@ -430,19 +430,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/ISO-Inverted.png" : {
-      "ft" : 32768,
-      "iS" : 28853,
-      "oA" : 0,
-      "oAP" : "\/img\/ISO-Inverted.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/img\/KCM-Logo.jpg" : {
       "ft" : 16384,
       "iS" : 9923,
@@ -452,32 +439,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logo.png" : {
-      "ft" : 32768,
-      "iS" : 45134,
-      "oA" : 0,
-      "oAP" : "\/img\/logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/old-logo.png" : {
-      "ft" : 32768,
-      "iS" : 11347,
-      "oA" : 0,
-      "oAP" : "\/img\/old-logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4128,9 +4089,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -4142,6 +4100,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
