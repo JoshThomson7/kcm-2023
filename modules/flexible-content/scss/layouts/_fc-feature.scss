@@ -47,7 +47,7 @@ Feature
             @include breakpoint(grandmabear) { border-left: 20px solid transparent;}
             @include breakpoint(brotherbear) { width:100%; border-left: none;}
 
-            h3 { font-weight: 700; line-height: 34px; font-size: 24px; color: var(--fl1-text); margin-bottom: 20px;}
+            h3 { font-weight: 700; line-height: 34px; font-size: 24px; color: var(--fl1-primary); margin-bottom: 20px;}
             h5 { font-size: 13px; font-weight: 600; margin-bottom: 0; color: var(--fl1-primary); text-transform: uppercase; line-height: normal; letter-spacing: 1px;}
 
 			li, p {
